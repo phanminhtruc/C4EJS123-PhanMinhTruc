@@ -40,5 +40,123 @@ và điều kiện.
 Boolean cũng là đối tượng nên cũng có thể được dùng để định nghĩa
 
 *. Ví dụ:
+
 var y = new Boolean(false);
 Tuy nhiên, không nên tạo kiểu đối tượng Boolean vì sẽ làm chậm quá trình thực hiện lệnh
+
+BT 3:
+A.
+
+for(let x = 0; x < 7;x++) 
+ {
+     console.log(x);
+ }
+
+B.
+
+let n = prompt ('hãy nhập số bạn muốn');
+ for(let x = 0; x <n; x++) 
+ {
+ console.log(x);
+ }
+
+C.
+
+let n = prompt ('hãy nhập số bạn muốn');
+ for(let x = 3; x <n;x++) 
+ {
+ console.log(x);
+ }
+
+D.
+
+let c = prompt ('hãy nhập số c');
+ let n = prompt ('hãy nhập số n');
+ for(c; c < n;c++) 
+ {
+ console.log(c);
+}
+
+E.
+
+let c = prompt ('hãy nhập số c');
+ let n = prompt ('hãy nhập số n');
+ let i =  Number(c);
+ for(i; i < n;) 
+ {
+ console.log(i);
+ i = i + 3;
+ }
+
+F.
+
+ var c = prompt ('hãy nhập số c');
+ var n = prompt ('hãy nhập số n');
+ var s = prompt ('hãy nhập số s');
+ var m = Number(c);
+ var i = Number(s);
+ for(m; m < n;) 
+ {
+ console.log(m);
+ m = m + i;
+ }
+
+BT 4:
+
+var n = prompt('Nhập giá trị cua N')
+var n=giaithua(n)	
+var gt = 0
+	function giaithua(x)
+	{
+	var giaithua=1;
+	for(var i=1;i<=n;i++)
+		{
+		giaithua*=i
+			}
+alert('Giai Thừa bằng '+giaithua)
+	}
+
+BT 5:
+
+var tuoi = prompt ('How old are you ?')
+ if (tuoi<16)
+ {
+     console.log('Not enough age to view this content')
+ }
+ else if(tuoi>= 16)
+ {
+     console.log('Watch everything you want')
+ }
+
+BT 6:
+
+var x = prompt('Enter a number from 0 to 9')
+var y = prompt('Enter a number')
+var x = 9;
+for (y; 4.5<y<9;) {
+  console.log('Higher half of 9')
+}
+    console.log('Lower half of 9') 
+  
+BT 7:
+ 
+let n = prompt('Nhap vao n =')
+let x = prompt('Nhap vao x =')
+n = 14;
+if ( x<n/2) {
+  console.log('Nho hon phan nua cua 14')
+}
+  else if  (x>n/2) {
+  console.log('Lon hon phan nua cua 14')
+}
+
+BT 8:
+
+
+let x = prompt('Nhap mot so tuy y ');
+if ( x % 2 == 0 ) {
+  console.log('Day la so chan')
+} 
+else if ( x % 2 == 1 ) {
+  console.log('Day la so le')
+}
