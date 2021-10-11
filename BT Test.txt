@@ -1,0 +1,71 @@
+function reverseString(str) {
+
+var newString = "";
+for (var i = str.length - 1; i >= 0; i--) {
+newString += str[i]; }
+return newString;
+}
+reverseString("program");
+
+
+
+'program'.substring(1);
+
+
+
+
+
+giveString = "this is Test";
+
+public static String toTitleCase(String givenString) {
+    String[] arr = givenString.split(" ");
+    StringBuffer sb = new StringBuffer();
+
+    for (int i = 0; i < arr.length; i++) {
+        sb.append(Character.toUpperCase(arr[i].charAt(0)))
+            .append(arr[i].substring(1)).append(" ");
+    }          
+    return sb.toString().trim();
+
+
+
+String toBeCapped = "this is Test";
+
+String[] tokens = toBeCapped.split("\\s");
+toBeCapped = "";
+
+for(int i = 0; i < tokens.length; i++){
+    char capLetter = Character.toUpperCase(tokens[i].charAt(0));
+    toBeCapped +=  " " + capLetter + tokens[i].substring(1);
+}
+toBeCapped = toBeCapped.trim();
+
+
+
+
+string = "this is Test";
+words = string.split(" ") 
+string = ""
+for(String w: words)
+
+
+    Word = Word.toUpperCase().replace(Word.substring(1), Word.substring(1).toLowerCase())
+
+    string += Word
+
+
+var ar = [“one”,”two”,”three”,”one”,”one”,”four”,”five”,”four”,”five”five”];
+ar.shift(); // returns "zero"
+console.log( ar );]
+
+
+
+
+
+var array = [1,2,3,3,4,5,4,4,4,5,5];
+
+var filtered = array.filter(function(value, index, arr){
+    return value > 5;
+});
+
+
